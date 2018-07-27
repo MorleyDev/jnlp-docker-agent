@@ -16,5 +16,5 @@ RUN apt-get update && \
     add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian stretch stable" && \
     add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian stretch stable" && \
     apt-get update && \
-    apt-get install -qq -y --no-install-recommends docker-ce=${DOCKER_VERSION} && \
+    apt-get install -qq -y --no-install-recommends docker-ce=${DOCKER_CE_VERSION} && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
