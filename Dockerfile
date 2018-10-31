@@ -1,4 +1,4 @@
-FROM jenkins/jnlp-slave:3.19-1
+FROM jenkins/jnlp-slave:3.27-1
 
 ARG DOCKER_CE_VERSION=18.03.0~ce-0~debian
 
